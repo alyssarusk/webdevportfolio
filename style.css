@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: #efefef;
+    font-size: 16pt;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #312E37;
+}
+
+h1, h2, h3{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #312E37;
+}
+
+p{
+    max-width: 30em;
+    margin-bottom: 0.5em
+}
+
+p.body-text{
+    margin-top: 0.5em;
+}
+
+
+.default-btn{
+    text-align: center;
+    background-color: #CBFFCE;
+    min-width: 100pt;
+    padding: 20px;
+    border-radius: 25px;
+    display: inline-block;
+    transition: all 0.3s ease-out;
+    margin: 2.5rem 35rem 0rem 35rem;
+}
+
+
+a:hover{
+    cursor: pointer;
+}
+
+a.btn:hover{
+    color: #20270E;
+    transition-duration: 125ms;
+}
+
+a.btn:active{
+    box-shadow: inset -3px -3px 5px #CBFFCE,
+    inset 8px 8px 10px #CBCBCB;
+    color: #20270E;
+}
+
+
+header{
+    text-align: center;
+    margin-top: 1em;
+}
+
+header nav a {
+    list-style: none;
+    margin: 0 3em;
+    color: #fefefe;
+}
+
+h1.page-title{
+    margin-top: 0.4em;
+    text-align: center;
+    font-size: 30pt;
+
+}
+
+h1.about-header{
+    margin-bottom: 0.5em;
+    text-align: left;
+
+}
+
+.background-pg{
+    background-image: url("mug.jpg");
+
+    color:#fefefe;
+    background-size: cover;
+}
+
+.overlay{
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    overflow: auto;
+    top: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+
+section.about-section{
+  margin-top: 3em;
+  margin-left: 6em;
+  display: flex;
+}
+
+.about-description{
+  margin-top: 0.5em;
+  margin-left: 4em;
+
+}
+
+aside{
+  margin-left: 4em;  
+  display: flex;
+  width: 50%;
+  justify-content: center;
+}
+
+
+img{
+  max-height: 18em;
+  max-width: 20em;
+}
+
+.profile-img{
+    display: flex;
+    justify-content: left;
+    max-width: 19em;
+    max-height: 20em;
+}
+
+.logo-img{
+    display: flex;
+    justify-content: left;
+    max-width: 6em;
+    max-height: 3em;
+}
+
+section.home-section{
+  margin-top: 1.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; 
+}
+
+
+home-title{
+    font-family: 'Libre Caslon Display', serif;
+    font-size: 100pt;
+    font-style: italic;
+    text-align: center;
+}
+
+home-subtitle{
+    margin-top: 1.5em;
+    margin-bottom: 2em;
+    font-size: 16pt;
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align: center;
+}
+
+.project-section{
+    margin-top: 1.5em;
+    margin-left: 4em;
+    margin-right: 4em;
+    display: flex;
+    justify-content: space-between; 
+    text-align: center;
+}
+
+.project-wrapper{
+    margin-bottom: 3em;
+}
+
+.page-footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #20270E;
+  color: white;
+  text-align: center;
+  display: flex;
+ justify-content: space-around; 
+}
+
+
+
+
+
